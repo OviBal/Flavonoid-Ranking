@@ -1,0 +1,4 @@
+from src.faps_score import FAPSCalculator  
+  
+calculator = FAPSCalculator()  
+faps_score = calculator.calculate_faps("SMILES_STRING")  

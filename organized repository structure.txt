@@ -1,0 +1,18 @@
+flavonoid-analysis/  
+├── LICENSE.md                    # MIT License  
+├── README.md                      
+├── requirements.txt             # Python dependencies  
+├── src/  
+│   ├── __init__.py  
+│   ├── faps_score.py           # FAPS scoring implementation  
+│   ├── molecular_descriptors.py # RDKit descriptor calculations  
+│   ├── data_processing.py      # Data cleaning and processing  
+│   └── visualization.py        # Plotting and figure generation  
+├── notebooks/  
+│   ├── 01_data_preparation.ipynb  
+│   ├── 02_descriptor_calculation.ipynb  
+│   ├── 03_faps_scoring.ipynb  
+│   └── 04_analysis_visualization.ipynb  
+└── data/  
+    ├── raw/                    # Original data files  
+    └── processed/              # Cleaned/transformed data  
